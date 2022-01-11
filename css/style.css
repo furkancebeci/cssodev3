@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  align-items: center;
 }
 
 header a {
@@ -88,7 +89,7 @@ main .logo img {
   align-items: center;
   justify-content: space-between;
   padding: 0 12px;
-  
+  transition: all .2s;
 }
 
 .search-bar:hover {
@@ -130,6 +131,7 @@ main .logo img {
   margin: 0 4px;
   border-radius: 4px;
   cursor: pointer;
+  transition: all .4s;
 }
 
 .search-bottom button:hover {
